@@ -4,19 +4,14 @@
   "description": "Web Testing I Guided Project",
   "main": "index.js",
   "scripts": {
-    "test": "change this to use jest"
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LambdaSchool/webtesting-i-guided.git"
-  },
-  "keywords": [
-    "lambda",
-    "testing"
-  ],
-  "author": "Lambda School",
-  "bugs": {
-    "url": "https://github.com/LambdaSchool/webtesting-i-guided/issues"
-  },
-  "homepage": "https://github.com/LambdaSchool/webtesting-i-guided#readme"
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.10",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
 }
