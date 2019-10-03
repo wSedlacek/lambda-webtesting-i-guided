@@ -1,5 +1,4 @@
-const add = (a, b) => {
-  return a + b;
-};
+const add = (a: number, b: number) => a + b;
+const subtract = (a: number, b: number) => a - b;
 
-export { add };
+export { add, subtract };
